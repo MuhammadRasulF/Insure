@@ -505,8 +505,8 @@ img {
   position: absolute;
   width: 697px;
   height: 649px;
-  left: 1200px;
-  top: 90px;
+  left: 1000px;
+  top: 70px;
 }
 
 .hero-section::before {
@@ -516,8 +516,8 @@ img {
   position: absolute;
   width: 1440px;
   height: 600px;
-  left: 300px;
-  top: 414px;
+  left: 80px;
+  top: 500px;
 }
 
 .hero-section__container {
@@ -562,7 +562,7 @@ img {
   position: absolute;
   width: 540px;
   height: 670px;
-  left: 525px;
+  left: 350px;
   top: 90px;
 }
 

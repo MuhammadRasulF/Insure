@@ -1,0 +1,15 @@
+.primary-link {
+    padding: 13px 29px 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: $font-color;
+    background: $human-color ;
+    border: 1.5px solid $font-color;
+    box-sizing: border-box;
+}

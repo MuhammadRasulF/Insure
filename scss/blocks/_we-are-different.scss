@@ -1,0 +1,70 @@
+.we-are-different__container {
+    padding-top: 369px;
+    padding-bottom: 158px;
+}
+
+.we-are-different__heading {
+    margin: 0;
+    margin-bottom: 96px;
+    font-family: $font-human;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: $font-color;
+    
+    &::before {  
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 1px;
+        left: auto;
+        top: 980px;
+        background: $line;
+    }
+}
+
+.we-are-different__list {
+    @include list-unstyled ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-are-different__item {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.we-are-different__item-img {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.we-are-different__item-heading {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: $font-human;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: $font-color;
+}
+
+.we-are-different__item-desc {
+    margin: 0;
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: $font-color;
+}

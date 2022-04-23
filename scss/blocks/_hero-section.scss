@@ -1,0 +1,70 @@
+.hero-section {
+    background-color: $bg-color ;
+    
+    &::after {
+        content: '';
+        background-image: url(../img/Group17.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 697px;
+        height: 649px;
+        left: 1200px;
+        top: 90px;
+    }
+    
+    &::before {
+        content: '';
+        background-image: url(../img/Group18.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 300px;
+        top: 414px;
+    }
+}
+
+.hero-section__container {
+    padding-top: 169px;
+    padding-bottom: 127px;
+}
+
+.hero-section__heading {
+    width: 540px; 
+    margin: 0;
+    font-family: $font-human ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    color: $human-color;
+    
+    &::before {  
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 1px;
+        left: auto;
+        top: 185px;
+        background: $human-color;
+    }
+}
+
+.hero-section__desc {
+    width: 540px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    font-family: $font-primary ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;   
+    color: $human-color;
+}
+.hero-section__picture {
+    position: absolute;
+    width: 540px;
+    height: 670px;
+    left: 525px;
+    top: 90px;
+}
